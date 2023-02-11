@@ -1,0 +1,284 @@
+@charset "UTF-8";
+   
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+    min-height:  100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height:100%;
+}
+
+form {
+    background: url('../img/artstationexplore.jpeg') no-repeat center center;
+    background-size: cover;
+    display: block;
+    margin: auto;
+    width: 31vh;
+    height: 120vw;
+    padding: 10vh 5vw;
+    border: transparent;
+    border-radius: 12px 3px;
+    text-align: left;
+}
+
+.enter-field > label {
+    display: block;
+    margin: auto;
+    padding: 4px 0px;
+    font-weight: 600;
+    font-size: 1.5em;
+    color: white;
+    letter-spacing: 5px;
+    text-shadow: 0px 0px whitesmoke;
+    text-align: left;
+}
+
+.enter-field > input {
+    background-color: rgb(222, 235, 235);
+    padding: 4px 0px;
+    width: 80vw;
+    border-radius: 3px;
+}
+
+.botao {
+    width: 16.5vh;
+    display: block;
+    margin: 10vw auto;
+    padding-top: 15px;
+}
+
+.botao > input {
+    background-color: rgb(145, 111, 145);
+    padding: 9px 25px;
+    border-radius: 2px solid transparent;
+    border-bottom-left-radius: 9px;
+    border-top-right-radius: 9px;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+
+.botao > input:hover {
+    background-color: rgba(137, 43, 226, 0.801);
+    color: rgba(93, 243, 243, 0.808);
+    transform: translate(-1px, 1px);
+    transition: all 0.2s;
+}
+
+footer {
+    background-color: rgb(46, 5, 46);
+    display: block;
+    margin-top:auto ;
+    text-align: center;
+    color: aliceblue; 
+}
+
+a {
+    color: rgba(127, 255, 212, 0.747);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(169, 245, 219);    
+    text-decoration: none;
+}
+
+@media (min-width:217px) and (max-width:235.98px) {
+    form {
+        background: url('../img/artstationexplore.jpeg') no-repeat center center;
+        background-size: cover;
+        display: block;
+        margin: auto;
+        width: 33vh;
+        height: 120vw;
+        padding: 10vh 5vw;
+        border: transparent;
+        border-radius: 12px 3px;
+        text-align: left;
+    }
+}
+
+@media (min-width:236px) and (max-width:250.98px) {
+    form {
+        background: url('../img/artstationexplore.jpeg') no-repeat center center;
+        background-size: cover;
+        display: block;
+        margin: auto;
+        width: 80vw;
+        height: 120vw;
+        padding: 7vh 5vw;
+        border: transparent;
+        border-radius: 12px 3px;
+        text-align: left;
+    }
+}
+
+@media (min-width:251px) and (max-width:270.98px) {
+    form {
+        background: url('../img/artstationexplore.jpeg') no-repeat center center;
+        background-size: cover;
+        display: block;
+        margin: auto;
+        width: 80vw;
+        height: 120vw;
+        padding: 7vh 5vw;
+        border: transparent;
+        border-radius: 12px 3px;
+        text-align: left;
+    }
+
+    .enter-field > label {
+        display: block;
+        margin: auto;
+        padding: 14px 0px;
+    }
+}
+
+@media (min-width:271px) and (max-width:290.98px) {
+    form {
+        background: url('../img/artstationexplore.jpeg') no-repeat center center;
+        background-size: cover;
+        display: block;
+        margin: auto;
+        width: 80vw;
+        height: 130vw;
+        padding: 7vh 5vw;
+        border: transparent;
+        border-radius: 12px 3px;
+        text-align: left;
+    }
+
+    .enter-field > label {
+        display: block;
+        margin: auto;
+        padding: 14px 0px;
+    }
+}
+
+@media (min-width:291px) and (max-width:319.98px) {
+    form {
+        background: url('../img/artstationexplore.jpeg') no-repeat center center;
+        background-size: cover;
+        display: block;
+        margin: auto;
+        width: 80vw;
+        height: 130vw;
+        padding: 4vh 5vw;
+        border: transparent;
+        border-radius: 12px 3px;
+        text-align: left;
+    }
+
+    .enter-field > label {
+        display: block;
+        margin: auto;
+        padding: 24px 0px;
+    }
+}
+
+@media (min-width:320px) and (max-width:349.98px) {
+    form {
+        background: url('../img/artstationexplore.jpeg') no-repeat center center;
+        background-size: cover;
+        display: block;
+        margin: auto;
+        width: 80vw;
+        height: 125vw;
+        padding: 4vh 5vw;
+        border: transparent;
+        border-radius: 12px 3px;
+        text-align: left;
+    }
+
+    .enter-field > label {
+        display: block;
+        margin: auto;
+        padding: 24px 0px;
+    }
+}
+
+@media (min-width:350px) and (max-width:374.98px) {
+    form {
+        background: url('../img/artstationexplore.jpeg') no-repeat center center;
+        background-size: cover;
+        display: block;
+        margin: auto;
+        width: 75vw;
+        height: 100vw;
+        padding: 4vh 5vw;
+        border: transparent;
+        border-radius: 12px 3px;
+        text-align: left;
+    }
+
+    .enter-field > label {
+        display: block;
+        margin: auto;
+        padding: 3vh 0px;
+        font-weight: 600;
+        font-size: 1.5em;
+        color: white;
+        letter-spacing: 5px;
+        text-shadow: 0px 0px whitesmoke;
+        text-align: left;
+    }
+
+    .enter-field > input {
+        background-color: rgb(222, 235, 235);
+        padding: 4px 0px;
+        width: 75vw;
+        border-radius: 3px;
+    }
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* form {
+    background: url('../img/artstationexplore.jpeg') no-repeat center center;
+    background-size: cover;
+    width: 50vh;
+    height: 30vw;
+    display: block;
+    margin: auto;
+    padding: 10vh 5vw;
+    border: transparent;
+    border-radius: 12px 3px;
+    text-align: center;
+}
+
+.enter-field > label {
+    display: block;
+    margin: 8px auto;
+    padding: 15px 0px;
+    font-weight: 600;
+    font-size: 2em;
+    color: white;
+    letter-spacing: 5px;
+    text-shadow: 0px 0px whitesmoke;
+    text-align: left;
+}
+
+.enter-field > input {
+    background-color: rgb(222, 235, 235);
+    padding: 5px 0px;
+    width: 25vw;
+    border-radius: 3px; */
